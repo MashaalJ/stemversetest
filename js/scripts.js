@@ -33,3 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 });
+
+  document.getElementById('register-btn').addEventListener('click', function() {
+    document.getElementById('summer-camp').scrollIntoView({ behavior: 'smooth' });
+  });
