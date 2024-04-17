@@ -2861,12 +2861,12 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #e6a756;
 }
 
-.btn-register{
+.btn-register {
   display: inline-block;
   width: 150px;
   height: auto;
   padding: 10px 20px;
-  margin: 10px 50px;
+  margin: 10px auto; /* Change margin to auto for horizontal centering */
   border-radius: 5px;
   background-color: #f47a62 !important;
   color: #faf3dd !important;
@@ -2875,10 +2875,12 @@ textarea.form-control-lg {
   font-weight: bold;
   cursor: pointer;
 }  
+
 .btn-register:hover {
   background-color: #f75a3a;
   color: white;
 }
+
 
 .btn-secondary {
   --bs-btn-color: #fff;
@@ -11693,29 +11695,20 @@ h3.text-uppercase {
     margin-bottom: 20px; /* Add space below headings */
   }
 
-  .details-container .form-group {
-    margin-bottom: 20px; /* Add space between form elements */
-  }
-}
-
-/* Additional adjustments for larger screens */
-@media (min-width: 768px) {
-  .details-container .row {
-    align-items: center; /* Center align content vertically */
-  }
-
   .details-container .col-md-6 {
+    width: 100%; /* Make columns full width on small screens */
     margin-bottom: 20px; /* Add space below columns */
   }
 
   .details-container .form-group {
-    margin-bottom: 0; /* Remove margin bottom for form elements */
+    margin-bottom: 20px; /* Add space between form elements */
   }
 
   .details-container .text-center {
     margin-top: 20px; /* Add space above submit button */
   }
 }
+
 
 main {
   padding: 20px;
