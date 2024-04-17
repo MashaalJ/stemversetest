@@ -11473,7 +11473,7 @@ h3.text-uppercase {
 }
 
 /* Adjustments for smaller screens */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .card.circle-card {
     width: 150px; /* Adjusted width for smaller screens */
     height: 150px; /* Adjusted height for smaller screens */
