@@ -2861,10 +2861,15 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #e6a756;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center; /* Center the container horizontally */
+}
+
 .btn-register {
   width: 150px;
   height: auto;
-  padding: 10px auto;
+  padding: 10px 20px;
   border-radius: 5px;
   background-color: #f47a62;
   color: #faf3dd;
@@ -2872,15 +2877,11 @@ textarea.form-control-lg {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  display: flex;
-  justify-content: center; /* Horizontally center the button */
-  align-items: center; /* Vertically center the button */
 }
 
 .btn-register:hover {
   background-color: #f75a3a;
 }
-
 
 
 .btn-secondary {
