@@ -11371,10 +11371,14 @@ h3.text-uppercase {
   background-image: url('https://t3.ftcdn.net/jpg/05/93/82/00/360_F_593820045_O5vy5kqIjV94RhjKL3LX3jA93Cg0Ok3m.jpg');
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 75vh;
   margin-top: 0px;
 }
-
+@media (max-width: 768px) {
+  .edventurers-header {
+     height: 30vh;
+   }
+ }
 .edventurers-header h1 {
   margin-top: 0px;
   text-align: center;
