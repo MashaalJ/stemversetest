@@ -11430,6 +11430,23 @@ h3.text-uppercase {
     margin-top: 10px;
   }
 }
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .btn-register {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Adjustments for extra small screens */
+@media (max-width: 576px) {
+  .btn-register {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
 
 .edventurers-programs {
   background-color: transparent;
@@ -11665,6 +11682,28 @@ h3.text-uppercase {
 
     
 }
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .details-container .container {
+    padding: 0 15px; /* Adjust padding for smaller screens */
+  }
+
+  .details-container h2 {
+    text-align: center; /* Center align headings */
+  }
+
+  .details-container .form-group {
+    margin-bottom: 20px; /* Add space between form elements */
+  }
+}
+
+/* Additional adjustments for larger screens */
+@media (min-width: 768px) {
+  .details-container .row {
+    align-items: center; /* Center align content vertically */
+  }
+}
+
 main {
   padding: 20px;
   
@@ -11704,9 +11743,10 @@ main {
   font-family: Hammersmith One;
   color: #003c71;
   margin: 10px 50px;
+  text-align: justify;
 }
 .register-btn {
-  background-color: #007bff;
+  background-color: #003c71;
   color: #fff;
   padding: 10px 20px;
   border: none;
