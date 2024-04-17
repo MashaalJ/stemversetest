@@ -11690,6 +11690,7 @@ h3.text-uppercase {
 
   .details-container h2 {
     text-align: center; /* Center align headings */
+    margin-bottom: 20px; /* Add space below headings */
   }
 
   .details-container .form-group {
@@ -11703,11 +11704,18 @@ h3.text-uppercase {
     align-items: center; /* Center align content vertically */
   }
 
+  .details-container .col-md-6 {
+    margin-bottom: 20px; /* Add space below columns */
+  }
+
   .details-container .form-group {
     margin-bottom: 0; /* Remove margin bottom for form elements */
   }
-}
 
+  .details-container .text-center {
+    margin-top: 20px; /* Add space above submit button */
+  }
+}
 
 main {
   padding: 20px;
