@@ -11475,16 +11475,16 @@ h3.text-uppercase {
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 768px) {
   .card.circle-card {
-    width: 150px; /* Adjusted width for smaller screens */
-    height: 150px; /* Adjusted height for smaller screens */
+    width: 150px !important; /* Adjusted width for smaller screens */
+    height: 150px !important; /* Adjusted height for smaller screens */
   }
 
   .card.circle-card h2 {
-    font-size: 1.2rem; /* Adjusted font size for smaller screens */
+    font-size: 1.2rem !important; /* Adjusted font size for smaller screens */
   }
 
   .card.circle-card p {
-    font-size: 0.8rem; /* Adjusted font size for smaller screens */
+    font-size: 0.8rem !important; /* Adjusted font size for smaller screens */
   }
 }
 
