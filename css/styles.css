@@ -11378,10 +11378,9 @@ h3.text-uppercase {
   margin-top: -10px;
 }
 @media (max-width: 768px) {
-  .edventurers-header {
-     height: 30vh;
-   }
-   .edventurers-header h1 {
+ .edventurers-header h1 {
+    font-size: 50px;
+    padding-top: 100px;
     text-align: center;
   }
 
