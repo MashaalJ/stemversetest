@@ -11374,49 +11374,49 @@ h3.text-uppercase {
   height: 75vh;
   margin-top: 0px;
 }
-.btn-register {
-  margin-top: -10px;
-}
-@media (max-width: 768px) {
-.edventurers-header {
-    height: 30vh;
-  }
-}
-@media (max-width: 768px) {
-.edventurers-header h1 {
-    font-size: 50px;
-    padding-top: 100px;
-    text-align: center;
-  }
 
-.btn-register {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 768px) {
-.edventurers-header p {
-    font-size: 18px;
-  }
-}
 .edventurers-header h1 {
   margin-top: 0px;
   text-align: center;
   padding-top: 150px;
   color: #003c71;
-  font-family: Hammersmith One;
+  font-family: 'Hammersmith One', sans-serif;
   font-weight: 900;
   font-size: 90px;
   text-transform: uppercase;
 }
 
-.edventurers-header p{
+.edventurers-header p {
   text-align: center;
   padding: 10px;
   color: #ffffff;
-  font-family: Hammersmith One;
+  font-family: 'Hammersmith One', sans-serif;
   font-weight: bolder;
   font-size: 24px;
   font-style: oblique;
+}
+
+.btn-register {
+  margin-top: -10px; /* Adjusted margin for smaller screens */
+}
+
+@media (max-width: 768px) {
+  .edventurers-header {
+    height: 30vh;
+  }
+
+  .edventurers-header h1 {
+    font-size: 50px;
+    padding-top: 100px; /* Adjusted padding for smaller screens */
+  }
+
+  .edventurers-header p {
+    font-size: 18px;
+  }
+
+  .btn-register {
+    margin-top: 10px;
+  }
 }
 
 .edventurers-programs {
