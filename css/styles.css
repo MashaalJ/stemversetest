@@ -11400,7 +11400,19 @@ h3.text-uppercase {
   margin-top: -10px; /* Adjusted margin for smaller screens */
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+  .edventurers-header h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .edventurers-header h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .edventurers-header {
     height: 30vh;
   }
@@ -11706,6 +11718,33 @@ main {
 .register-btn:hover {
   background-color: #0056b3;
 }
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .camp {
+    padding: 10px;
+  }
+  .camp-container {
+    flex-direction: column;
+  }
+  .camp img {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .camp h2 {
+    margin: 10px 0;
+  }
+  .camp-details {
+    margin: 10px 0;
+  }
+}
+
+/* Adjustments for extra small screens */
+@media (max-width: 576px) {
+  .camp h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .list-hours {
   font-size: 0.9rem;
 }
