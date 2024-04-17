@@ -11447,7 +11447,35 @@ h3.text-uppercase {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
 }
+@media screen and (max-width: 768px) {
+  .card-container-heading {
+    font-size: 28px; /* Adjusted font size for smaller screens */
+    padding-top: 1rem; /* Adjusted padding for smaller screens */
+  }
+#cardContainer {
+  padding: 30px 10px; /* Adjusted padding for smaller screens */
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjusted grid layout for smaller screens */
+  grid-gap: 10px; /* Adjusted grid gap for smaller screens */
+  }
 
+ .card.circle-card h2 {
+  font-size: 1.5rem; /* For larger screens */
+}
+
+.card.circle-card p {
+  font-size: 1rem; /* For larger screens */
+}
+
+@media screen and (max-width: 768px) {
+  .card.circle-card h2 {
+    font-size: 1.2rem; /* For smaller screens */
+  }
+
+  .card.circle-card p {
+    font-size: 0.8rem; /* For smaller screens */
+  }
+}
+ 
 .card.circle-card {
   position: relative;
   width: 100%;
