@@ -2862,24 +2862,25 @@ textarea.form-control-lg {
 }
 
 .btn-register {
-  display: inline-block;
   width: 150px;
   height: auto;
   padding: 10px 20px;
-  margin: 10px auto; /* Change margin to auto for horizontal centering */
   border-radius: 5px;
-  background-color: #f47a62 !important;
-  color: #faf3dd !important;
+  background-color: #f47a62;
+  color: #faf3dd;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-}  
+  display: flex;
+  justify-content: center; /* Horizontally center the button */
+  align-items: center; /* Vertically center the button */
+}
 
 .btn-register:hover {
   background-color: #f75a3a;
-  color: white;
 }
+
 
 
 .btn-secondary {
