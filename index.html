@@ -8,24 +8,36 @@
         <title>STEMverse</title>
         <style>
           body {
-            background-image: url('https://lh3.googleusercontent.com/pw/AP1GczMShViFUnM_aDdLb9dE6dk-QuzPLhxs2OLQv_I4lZw-OMQcgVXrkPU9hu_WZO9nA1g_hcCLJevhPfWdyV6EnHXuNd3g6HElw18OlKzuqtqz6DxQWEowJUoaniFOr1KgPMYdzGb9AqJL9mdg5TJ5GPow=w1120-h640-s-no-gm?authuser=0');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-    
-        @media only screen and (max-width: 600px) {
-            body {
-                background-attachment: scroll;
-                background-size: 100% auto; 
-            }
-        }
-        
-        @media only screen and (min-width: 601px) {
-            body {
-                background-attachment: fixed;
-            }
-        }
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczMShViFUnM_aDdLb9dE6dk-QuzPLhxs2OLQv_I4lZw-OMQcgVXrkPU9hu_WZO9nA1g_hcCLJevhPfWdyV6EnHXuNd3g6HElw18OlKzuqtqz6DxQWEowJUoaniFOr1KgPMYdzGb9AqJL9mdg5TJ5GPow=w1120-h640-s-no-gm?authuser=0');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-size: 100% auto; 
+    }
+}
+
+/* For tablets and smaller laptops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-attachment: scroll;
+        background-size: 100% auto; 
+    }
+}
+
+/* For larger screens */
+@media only screen and (min-width: 1025px) {
+    body {
+        background-attachment: fixed;
+    }
+}
+
 
       </style>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
