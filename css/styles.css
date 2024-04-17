@@ -11702,7 +11702,12 @@ h3.text-uppercase {
   .details-container .row {
     align-items: center; /* Center align content vertically */
   }
+
+  .details-container .form-group {
+    margin-bottom: 0; /* Remove margin bottom for form elements */
+  }
 }
+
 
 main {
   padding: 20px;
